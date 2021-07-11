@@ -1,3 +1,5 @@
+// jest --watch --collect-coverage                                        10:45:19 PM
+
 const maxProfit = require('../leetcode/bestTimeToBuyAndSellStock')
 
 

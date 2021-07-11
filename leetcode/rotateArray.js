@@ -98,7 +98,7 @@ else
 {let i = 0
 while (i < k)
 {
-  print("a i " + nums + " " + i)
+  // print("a i " + nums + " " + i)
   nums.unshift(...nums.splice(-1))
 i++ }}
 return nums
@@ -117,4 +117,4 @@ rotateFast([1,2], 2)
 rotateFast([1,2], 3)
 rotateFast([1,2,4,6,2,6,4,6,3,4], 4)
 
-print(treeify.asTree(rotateFast([1,2,4,6,2,6,4,6,3,4], 4), true))
+// print(treeify.asTree(rotateFast([1,2,4,6,2,6,4,6,3,4], 4), true))

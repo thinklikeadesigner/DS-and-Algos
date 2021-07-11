@@ -65,8 +65,8 @@ Constraints:
 
 
 
-console.log(obj)
-console.log('false')
+// console.log(obj)
+// console.log('false')
 return false
 
     }

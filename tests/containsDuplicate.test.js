@@ -1,3 +1,4 @@
+// jest --watch --collect-coverage                                        10:45:19 PM
 
   const containsDuplicate = require('../leetcode/containsDuplicate')
 
