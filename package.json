@@ -1,0 +1,29 @@
+{
+  "name": "java",
+  "version": "1.0.0",
+  "description": "Hello, this is my personal repo where I'm posting translations of data structures and algorithms into javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinklikeadesigner/DS-and-Algos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinklikeadesigner/DS-and-Algos/issues"
+  },
+  "homepage": "https://github.com/thinklikeadesigner/DS-and-Algos#readme",
+  "dependencies": {
+    "jest": "^27.0.6",
+    "treeify": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.14.5"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
