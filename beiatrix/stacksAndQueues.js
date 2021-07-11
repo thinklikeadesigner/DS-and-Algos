@@ -1,4 +1,4 @@
-function print(x){console.log(x)}
+function print(x){console.log(`x is ${x}`)}
 
 
 ////// stacks last in first out lifo
