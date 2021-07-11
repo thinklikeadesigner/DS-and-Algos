@@ -1,47 +1,27 @@
 function repeatedString(s, n) {
-    
-    let count = 0
-    let length = s.length;
-    
-    console.log(`length h${s.length}`)
-    let rptsReq = Math.ceil(n/length)
-    console.log(`rpts ${rptsReq}`)
-    
-    let splitt = s.split('')
-    console.log(splitt)
-    
-    let totLet = s.length*rptsReq
-    console.log(`tot ${totLet}`)
-    
-    
-    let neq = []
-    for (let i = 0; i < rptsReq; i++){
-       neq.push(...splitt)
-    
-    }
-    console.log(neq)
-    let cut = neq.splice(0,n)
-    console.log(`cut ${cut + cut.length}`)
-    
-    
-    
-    for (letter in cut){
-     
-        if (cut[letter] == 'a')
-      {   count++
-    }
-    }
-    
-    
-    
-    
-    console.log()
-    
-    console.log(`count ${count}`)
-    return count
-    }
-    
-    
-    repeatedString('aba', 10)
+  let strLen = s.length;
+  let reqLen = n;
+  let wholeStrRep = Math.floor(reqLen / strLen);
+  let leftOverStr = reqLen % strLen;
 
-    module.exports = repeatedString
+  let chopLeftOver = s.split('');
+  let leftOverArr = chopLeftOver.splice(0, leftOverStr);
+
+  let wholeStrCnt = 0;
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === 'a') wholeStrCnt++;
+  }
+
+  let choppedStrCnt = 0;
+  for (let i = 0; i < leftOverArr.length; i++) {
+    if (leftOverArr[i] === 'a') choppedStrCnt++;
+  }
+
+  let unchoppedTotCnt = wholeStrRep * wholeStrCnt;
+
+  return choppedStrCnt + unchoppedTotCnt;
+}
+
+repeatedString('aba', 10);
+
+module.exports = repeatedString;
