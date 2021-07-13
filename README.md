@@ -1,15 +1,11 @@
 # DS-and-Algos
 
-Hello, this is my personal repo where I'm posting translations of data structures and algorithms into javascript. 
-
-Feel free to make an issue if you find a mistake, because I am translating these by hand and I'm not an expert. 
+Hello, this is my personal repo where I'm posting data structures, algorithms, and notes related to data structures or algorithms. I also have practice problems from various coding sites on here, as well as some various implementations that I've come up on across the world wide web. Feel free to explorer and mark issues where you see them.
 
 
 ## repo structure
 
-The repo is organized by data structures, with an implementation in javascript and the original implementation in java.
-
-I put the java one in there so you could see the original code that I am changing into javascript.
+I really don't have a way to organize content yet, since this is a personal wiki. Though, I'm trying to link relevant sections to eachother. There are leetcode/hackerrank solutions on here but I don't have the problem statements. Although, I plan on adding those later so you can do the problems yourselves.
 
 ## more resources
 I will also post a link to the post i used to help convert the java implementation to the javascript implementation at the top of each file, as well as other articles I find useful
