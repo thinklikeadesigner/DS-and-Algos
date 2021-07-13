@@ -10,6 +10,20 @@ I really don't have a way to organize content yet, since this is a personal wiki
 ## more resources
 I will also post a link to the post i used to help convert the java implementation to the javascript implementation at the top of each file, as well as other articles I find useful
 
+## Easter Egg
+I have the npm package **treeify** in the *package.json* to run, import it
+
+``` javascript
+const treeify = require('treeify');
+```
+
+and then in your code specify what tree you want to visualize
+
+``` javascript
+console.log(treeify.asTree(<your tree name here>, true))
+```
+
+
 ## a word on tests
 I have tests for some of the coding challenges. You'll find all of them in the folder marked **tests**.
 First install the relevant packages

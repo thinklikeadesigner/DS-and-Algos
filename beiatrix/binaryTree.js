@@ -223,7 +223,7 @@ queue.push(this.root)
   }
 }
 
-const bst = new BST(array[0])
+const bst = new BST(26)
 
 bst.insert(3)
 bst.insert(36)
@@ -250,5 +250,7 @@ bst.dfsPostOrder()
 
 // 15, 3, 36, 2, 12, 28, 39
 bst.bfs()
+
+// const treeify = require('treeify');
 
 print(treeify.asTree(bst, true))
