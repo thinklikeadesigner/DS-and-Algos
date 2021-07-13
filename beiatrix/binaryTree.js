@@ -223,7 +223,7 @@ queue.push(this.root)
   }
 }
 
-const bst = new BST(15)
+const bst = new BST(array[0])
 
 bst.insert(3)
 bst.insert(36)

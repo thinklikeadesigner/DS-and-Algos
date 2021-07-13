@@ -18,10 +18,11 @@ function repeatedString(s, n) {
   }
 
   let unchoppedTotCnt = wholeStrRep * wholeStrCnt;
-
+console.log('j')
   return choppedStrCnt + unchoppedTotCnt;
 }
 
 repeatedString('aba', 10);
 
 module.exports = repeatedString;
+
