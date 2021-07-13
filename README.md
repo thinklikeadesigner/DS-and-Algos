@@ -10,6 +10,21 @@ I really don't have a way to organize content yet, since this is a personal wiki
 ## more resources
 I will also post a link to the post i used to help convert the java implementation to the javascript implementation at the top of each file, as well as other articles I find useful
 
+## a word on tests
+I have tests for some of the coding challenges. You'll find all of them in the folder marked **tests**.
+First install the relevant packages
+``` bash
+npm i
+```
+To run the tests just type jest in the console, it will run all the tests by default
+``` bash
+jest
+```
+My favorite is to have all the tests run on file save, you can do this with the following command
+``` bash
+jest --watch --collect-coverage  
+```
+
 ## one more thing, i'm lazy so i don't like using console.log
 at the top of each javascript file, i have a custom function that allows me to use print instead of console.log
 feel free to use it, or just use console.log
