@@ -11,7 +11,7 @@ I really don't have a way to organize content yet, since this is a personal wiki
 I will also post a link to the post i used to help convert the java implementation to the javascript implementation at the top of each file, as well as other articles I find useful
 
 ## Easter Egg
-I have the npm package **treeify** in the *package.json* to run, import it
+To visualize trees or graphs, I've included a pretty neat package called treeify. It will create a tree in the console so you have a visual representation of what you created. Very useful to see if your data structure is correct and for solving coding challenges
 
 ``` javascript
 const treeify = require('treeify');
