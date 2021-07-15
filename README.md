@@ -1,6 +1,6 @@
 # DS-and-Algos
 
-Hello, this is my personal repo where I'm posting data structures, algorithms, and notes related to data structures or algorithms. I also have practice problems from various coding sites on here, as well as some various implementations that I've come up on across the world wide web. Feel free to explorer and mark issues where you see them.
+Hello, this is my personal repo where I'm posting data structures, algorithms, and notes related to data structures or algorithms. I also have practice problems from various coding sites on here, as well as some various implementations that I've come up on across the world wide web. Feel free to explore and mark issues where you see them.
 
 
 ## repo structure
