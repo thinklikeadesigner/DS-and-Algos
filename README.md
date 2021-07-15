@@ -39,13 +39,3 @@ My favorite is to have all the tests run on file save, you can do this with the 
 jest --watch --collect-coverage  
 ```
 
-## one more thing, i'm lazy so i don't like using console.log
-at the top of each javascript file, i have a custom function that allows me to use print instead of console.log
-feel free to use it, or just use console.log
-
-``` javascript
-function print(x) {
-    console.log(x);
-}
-
-```
