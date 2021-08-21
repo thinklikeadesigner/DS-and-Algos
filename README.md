@@ -5,7 +5,7 @@ Hello, this is my personal repo where I'm posting data structures, algorithms, a
 
 ## repo structure
 
-I really don't have a way to organize content yet, since this is a personal wiki. Though, I'm trying to link relevant sections to eachother. There are leetcode/hackerrank solutions on here but I don't have the problem statements. Although, I plan on adding those later so you can do the problems yourselves.
+I really don't have a way to organize content yet, since this is a personal wiki. Though, I'm trying to link relevant sections to eachother. There are leetcode/hackerrank solutions on here but I don't have the problem statements. Although, I plan on adding links to a notion of the problem statement later so you can do the problems yourselves.
 
 ## more resources
 Some of the files have links to content I found useful while understanding the data structure or algorithm.
